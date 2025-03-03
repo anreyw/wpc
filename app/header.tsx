@@ -9,7 +9,7 @@ export default function Header() {
 	alt='Logo of Whole Presence Counseling, which resembles a hand illustration of a thick, imperfect black circle.'
 	className="w-12"
       />
-      <h1 className="text-2xl font-bold">Whole Presence Counseling</h1>
+      <h1 className="text-2xl leading-none font-bold">Whole Presence Counseling</h1>
     </header>
   )
 }
