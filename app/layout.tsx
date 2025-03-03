@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={geist.className}>
+    <html lang="en" className={`${geist.className} antialiased`}>
       <body className="m-8">
 	<Header />
         {children}
