@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geist.className} antialiased`}>
-      <body className="m-8">
+      <body className="m-8 md:m-16 max-w-3xl">
 	<Header />
         {children}
 	<Footer />
