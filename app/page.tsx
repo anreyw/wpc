@@ -17,7 +17,7 @@ export default function Main() {
 
       <section className="flex flex-col gap-4">
 	<h2 className="text-xl font-semibold">Terms</h2>
-	<p>Clients are subject to certain <a href="#" target="_blank" className={linkStyle}>privacy practices</a> and must give informed consent to my practice's <a href="" target="_blank" className={linkStyle}>terms and conditions</a> to receive services.</p>
+	<p>Clients are subject to certain <a href="#" target="_blank" className={linkStyle}>privacy practices</a> and must give informed consent to the <a href="" target="_blank" className={linkStyle}>terms and conditions</a> to receive services.</p>
 	<p>By law, clients are protected from <a href="https://www.cms.gov/medical-bill-rights" target="_blank" className={linkStyle}>surprise medical bills</a> and have the right to receive a good faith estimate of expected service costs at the time of scheduling and upon request.</p>
       </section>
 
