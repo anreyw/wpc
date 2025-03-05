@@ -5,8 +5,9 @@ export default function Main() {
     <main className="grid md:grid-cols-2 gap-8">
       <section className="flex flex-col gap-4">
 	<h2 className="text-xl font-semibold">About</h2>
-	<p> My name is Anrey Wang, and I am a <a href="https://www.counseling.org/mental-health-counseling/what-is-counseling" className={linkStyle}>Licensed Professional Counselor</a>. I provide existential therapy to neurospicy and <a href="https://en.wikipedia.org/wiki/Twice_exceptional" className={linkStyle}>twice-exceptional</a> adults in Oregon, via secure video conferencing.</p>
-	<p> I practice with authenticity, discerning attention, and a deep commitment to counseling excellence. I also identify as highly gifted and may be an especially good fit for other intellectually gifted individuals.</p>
+	<p> My name is Anrey Wang, and I am a <a href="https://www.counseling.org/mental-health-counseling/what-is-counseling" className={linkStyle}>Licensed Professional Counselor</a>. I provide one-on-one existential therapy to adults in Oregon, via secure video conferencing.</p>
+	<p> I practice with authenticity, discerning attention, and a deep commitment to counseling excellence.</p>
+	<p>I also identify as intellectually gifted and may be a good fit for individuals who are: unusually bright, highly sensitive, neurodivergent/neurospicy, or <a href="https://en.wikipedia.org/wiki/Twice_exceptional" className={linkStyle}>twice-exceptional</a>.</p>
       </section>
       
       <section className="flex flex-col gap-4">
