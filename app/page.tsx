@@ -25,7 +25,7 @@ export default function Main() {
       <section className="flex flex-col gap-4">
 	<h2 className="text-xl font-semibold">Contact</h2>
 	<p><strong>I am not currently accepting new clients.</strong></p>
-	<p>If necessary, I can be reached by email at anrey<span className="hidden">I</span>@whole<span className="hidden">love</span>presencecounseling<span className="hidden">spam</span>.com.</p>
+	<p>If necessary, I can be reached by email at <a href="mailto:anrey@wholepresencecounseling.com" className={linkStyle}>anrey@wholepresencecounseling.com</a>.</p>
 	<p>If you are in an immediate crisis, please <em>do not</em> contact me. Instead call or text <a href="tel:988" className={linkStyle}>9-8-8</a> or visit the <a href="https://988lifeline.org/" className={linkStyle}>988 Lifeline website</a>.</p>
       </section>
     </main>
