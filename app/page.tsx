@@ -12,7 +12,7 @@ export default function Main() {
       
       <section className="flex flex-col gap-4">
 	<h2 className="text-xl font-semibold">Fees</h2>
-      <p>I charge for the actual amount of time spent in a session together, rounded up to the nearest 6-minute increment. 6 minutes costs $24, and so a 60-minute session costs $240.  I do not take health insurance and do not provide superbills or statements for out-of-network insurance billing.</p>    
+	<p>I charge for the actual amount of time spent in a session together, rounded up to the nearest 6-minute increment. 6 minutes costs $24, and so a 60-minute session, for example, costs $240.  I do not take health insurance and do not provide superbills or statements for out-of-network insurance billing.</p>    
 	<p>For a limited number of clients on my caseload, I offer a “pay what you can afford” reduced fee option.</p>
       </section>
 
