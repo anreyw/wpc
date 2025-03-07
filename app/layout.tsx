@@ -11,7 +11,7 @@ const geist = Geist({
 
 export const metadata: Metadata = {
   title: "Whole Presence Counseling",
-  description: "Video counseling for Oregon clients",
+  description: "One-on-one existential therapy for gifted, highly sensitive, neurodivergent, or twice-exceptional adults in Oregon, via secure video conferencing.",
 };
 
 export default function RootLayout({
