@@ -10,26 +10,34 @@
   },
   "dependencies": {
     "@vercel/speed-insights": "^1.2.0",
-    "next": "15.2.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "next": "^15.4.5",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4.0.9",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.2.0",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.0.9",
-    "typescript": "^5"
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/node": "^24.1.0",
+    "@types/react": "^19.1.9",
+    "@types/react-dom": "^19.1.7",
+    "eslint": "^9.32.0",
+    "eslint-config-next": "15.4.5",
+    "eslint-config-prettier": "^10.1.8",
+    "postcss": "^8.5.6",
+    "prettier": "3.6.2",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.9.2"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
+      "@tailwindcss/oxide",
       "@vercel/speed-insights",
-      "sharp"
-    ]
+      "sharp",
+      "unrs-resolver"
+    ],
+    "overrides": {
+      "next@>=15.0.0 <15.2.2": ">=15.2.2",
+      "next@>=15.0.0 <15.2.3": ">=15.2.3"
+    }
   }
 }
