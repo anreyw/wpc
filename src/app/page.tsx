@@ -81,17 +81,22 @@ export default function Main() {
       <section className="flex flex-col gap-4">
         <h2 className="text-xl font-semibold">Contact</h2>
         <p>
-          <strong>I am not currently accepting new clients.</strong>
+          If you believe my services could be helpful and we might be a good
+          fit, please contact me to schedule a free initial consultation.
         </p>
         <p>
-          If necessary, I can be reached by email at{" "}
+          <strong>Email:</strong>{" "}
           <a
             href="mailto:anrey@wholepresencecounseling.com"
             className={linkStyle}
           >
             anrey@wholepresencecounseling.com
+          </a>{" "}
+          <br />
+          <strong>Phone:</strong>{" "}
+          <a href="tel:+18402008567" className={linkStyle}>
+            (840) 200-9567
           </a>
-          .
         </p>
         <p>
           If you are in an immediate crisis, please <em>do not</em> contact me.
