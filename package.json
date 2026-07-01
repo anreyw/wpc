@@ -15,17 +15,17 @@
     "react-dom": "19.2.4"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.3.1",
+    "@tailwindcss/postcss": "^4.3.2",
     "@types/node": "^25.9.4",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
-    "baseline-browser-mapping": "^2.10.38",
+    "baseline-browser-mapping": "^2.10.40",
     "eslint": "^9.39.4",
     "eslint-config-next": "16.1.6",
     "eslint-config-prettier": "^10.1.8",
-    "postcss": "^8.5.15",
+    "postcss": "^8.5.16",
     "prettier": "3.8.1",
-    "tailwindcss": "^4.3.1",
+    "tailwindcss": "^4.3.2",
     "typescript": "^5.9.3"
   },
   "pnpm": {
